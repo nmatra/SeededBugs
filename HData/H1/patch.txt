@@ -1,0 +1,12 @@
+1 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 94 
+Faulty:
+return this.mean;
+Seed:
+return standardDeviation;
+****************************************************************
+2 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 173
+Faulty:
+return Integer.MAX_VALUE;
+Seed:
+return Double.POSITIVE_INFINITY;
+****************************************************************

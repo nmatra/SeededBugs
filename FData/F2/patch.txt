@@ -1,0 +1,10 @@
+1 InsertBefore src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 150
+Faulty:
+ret = Beta.regularizedBeta(getProbabilityOfSuccess(), getNumberOfSuccesses(), x + 1);		
+Seed:
+if (x < 0) {
+  return 0;
+}
+****************************************************************
+
+

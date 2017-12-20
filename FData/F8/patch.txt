@@ -1,0 +1,14 @@
+1 Delete src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 120 
+Faulty:
+if (x < 0) {
+  return 0;
+}
+Seed:
+****************************************************************
+2 Replace src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 150 
+Faulty:
+return numberOfSuccesses;
+Seed:
+ret=0.0;
+****************************************************************
+

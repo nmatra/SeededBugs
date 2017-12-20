@@ -1,0 +1,12 @@
+1 Delete src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 101
+Faulty:
+setProbabilityOfSuccess(p);
+Seed:
+****************************************************************
+2 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 170 
+Faulty:
+return Double.NEGATIVE_INFINITY;
+Seed:
+return Double.MIN_VALUE;
+****************************************************************
+

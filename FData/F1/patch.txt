@@ -1,0 +1,8 @@
+1 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 169
+Faulty:
+setMean(p)
+Seed:
+if (p == 0) {
+  return Double.NEGATIVE_INFINITY;
+}
+****************************************************************

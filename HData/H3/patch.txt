@@ -1,0 +1,12 @@
+1 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 109
+Faulty:
+standardDeviation *= sd;
+Seed:
+standardDeviation = sd;
+****************************************************************
+2 Replace src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 167
+Faulty:
+ret = 1.0;
+Seed:
+ret = 0.0;
+****************************************************************

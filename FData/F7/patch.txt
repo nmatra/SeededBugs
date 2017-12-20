@@ -1,0 +1,13 @@
+1 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 173 
+Faulty:
+return Double.MAX_VALUE;
+Seed:
+return Double.POSITIVE_INFINITY;
+****************************************************************
+2 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 218 
+Faulty:
+ret=-Double.MAX_VALUE;
+Seed:
+ret=Double.MAX_VALUE;
+****************************************************************
+

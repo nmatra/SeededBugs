@@ -1,0 +1,13 @@
+1 Replace src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 150  
+Faulty:
+ret=0.5;
+Seed:
+ret=0.0;
+****************************************************************
+2 Replace src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 170 
+Faulty:
+return -1;
+Seed:
+return Double.NEGATIVE_INFINITY;
+****************************************************************
+

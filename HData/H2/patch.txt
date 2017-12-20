@@ -1,0 +1,11 @@
+1 Replace src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 89
+Faulty:
+probabilityOfSuccess = successes;
+Seed:
+numberOfSuccesses = successes;
+****************************************************************
+2 Delete src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 133
+Faulty:
+setProbabilityOfSuccess(p);
+Seed:
+****************************************************************

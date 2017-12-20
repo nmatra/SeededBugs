@@ -1,0 +1,17 @@
+1 Delete src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 120  
+Faulty:
+if (x < 0) return 0;
+Seed:
+****************************************************************
+2 Replace src/main/java/org/apache/commons/math/distribution/PascalDistributionImpl.java 150 
+Org:
+ret=0.5;
+Seed:
+ret=0.0;
+****************************************************************
+3 Delete src/main/java/org/apache/commons/math/distribution/NormalDistributionImpl.java 237 
+Faulty:
+setMean(p);
+Seed:
+****************************************************************
+
